@@ -7,7 +7,7 @@ RUN dnf -y update && \
 
 RUN flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-RUN flatpak install -y flathub org.kde.Platform//5.11 && \
-    flatpak install -y flathub org.kde.Sdk//5.11
+RUN flatpak install -y flathub org.kde.Platform//5.12 && \
+    flatpak install -y flathub org.kde.Sdk//5.12
 
 
